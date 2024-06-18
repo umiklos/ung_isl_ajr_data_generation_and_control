@@ -22,6 +22,9 @@ ament_target_dependencies(control_node rclcpp std_msgs geometry_msgs sensor_msgs
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 
+install(DIRECTORY launch
+  DESTINATION share/${PROJECT_NAME})
+
 install(TARGETS
   generate_range_and_twist
   control_node

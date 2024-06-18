@@ -11,7 +11,7 @@ It is assumed that the workspace is `~/ros2_ws/`.
 cd ~/ros2_ws/src
 ```
 ``` r
-git clone https://github.com/https://github.com/umiklos/ung_isl_ajr_data_generation_and_control
+git clone /https://github.com/umiklos/ung_isl_ajr_data_generation_and_control
 
 ```
 
@@ -31,15 +31,16 @@ source ~/ros2_ws/install/setup.bash
 ```
 </details>
 
-
 ``` r
-ros2 run ung_isl_ajr_data_generation_and_control
- generate_range_and_twist 
+ros2 launch ung_isl_ajr_data_generation_and_control data_gen_control.launch.py 
 ```
 
 ``` r
-ros2 run ung_isl_ajr_data_generation_and_control
- control_node
+ros2 run ung_isl_ajr_data_generation_and_control generate_range_and_twist 
+```
+
+``` r
+ros2 run ung_isl_ajr_data_generation_and_control control_node
 ```
 ## Graph
 
