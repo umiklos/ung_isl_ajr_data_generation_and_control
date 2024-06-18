@@ -11,7 +11,7 @@ It is assumed that the workspace is `~/ros2_ws/`.
 cd ~/ros2_ws/src
 ```
 ``` r
-git clone https://github.com/https://github.com/umiklos/ ung_isl_ajr_data_generation_and_control
+git clone https://github.com/https://github.com/umiklos/ung_isl_ajr_data_generation_and_control
 
 ```
 
@@ -50,6 +50,7 @@ gen([ /gen_range_twist]):::red --> range
 
 range[ /range<br/>sensor_msgs/Range]:::light --> cont([ /control_node]):::red
 twist[ /twist<br/>geometry_msgs/Twist]:::light -->cont  
+gen --> twist
 
 
 classDef light fill:#34aec5,stroke:#152742,stroke-width:2px,color:#152742  
