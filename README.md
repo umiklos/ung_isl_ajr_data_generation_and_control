@@ -11,7 +11,7 @@ It is assumed that the workspace is `~/ros2_ws/`.
 cd ~/ros2_ws/src
 ```
 ``` r
-git clone /https://github.com/umiklos/ung_isl_ajr_data_generation_and_control
+git clone https://github.com/umiklos/ung_isl_ajr_data_generation_and_control
 
 ```
 
